@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Advanced tags</title>
+</head>
+<body>
+    <h1>HTML advanced tags</h1>
+    <iframe src="https://youtu.be/Ra9w7qsy7p0?si=UcWKzjt3tUmEofWN"></iframe>
+    <br>
+    <p>Accion Labs Innovation Summit Highlights, using iframe tag</p>
+    <audio src="" controls>
+        <source src="somemedia.mp3">
+    </audio><br>
+    <p>Audio player</p>
+    <video src="" controls>
+        <source src="somemedia.mp4">
+    </video><br>
+    <p>Video player</p>
+
+    <canvas id="myCanvas" width="400" height="200"></canvas>
+    <script>
+        const canvas = document.getElementById('myCanvas');
+        const ctx = canvas.getContext('2d'); // 2D rendering context
+        ctx.fillStyle = 'red'; // Fill color
+        ctx.fillRect(50, 50, 100, 75); // drawing rectangle(x, y, width, height)
+        ctx.font = '20px Arial';
+        ctx.fillStyle = 'blue';
+        ctx.fillText('Hello, Canvas!', 50, 150); // drawing text (text, x, y)
+    </script>
+</body>
+</html>
